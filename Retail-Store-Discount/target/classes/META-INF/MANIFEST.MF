@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: Retail-Store-Discount
+Implementation-Version: 1.0
+Built-By: Jan Vincent
+Implementation-Vendor-Id: com.jan.vincent
+Build-Jdk: 1.8.0_181
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/Retail-Store-Discount
+Created-By: Maven Integration for Eclipse
+
