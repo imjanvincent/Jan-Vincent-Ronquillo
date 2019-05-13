@@ -31,17 +31,26 @@ File > Import > Existing Maven Projects
 Run RetailStoreDiscountApplication class as Java Application a d wait for the server to be started from the console logs
 ![Server logs](https://user-images.githubusercontent.com/50596242/57650724-7c4a2680-75dc-11e9-952c-87a1595f1f2b.PNG)
 
-
 ### 4. Check API if it successfully started in the browser by hitting
 http://localhost:8080/
-
+![Server is up](https://user-images.githubusercontent.com/50596242/57650839-cb905700-75dc-11e9-9f79-769b6cec92e7.PNG)
+ 
 ### 5. Open Postman to test GET method to get the list of sales. Enter the request URL and hit Send button
 http://localhost:8080/sale
+![GET](https://user-images.githubusercontent.com/50596242/57650879-eb277f80-75dc-11e9-9de9-dc4fab2faf0c.PNG)
 
 ### 6. Test POST method to get the user's total bill after discount(s). Select method as POST, enter request URL and request body then hit Send button
+![POST](https://user-images.githubusercontent.com/50596242/57650882-eb277f80-75dc-11e9-8834-5e2af08f3b22.PNG)
+
+### Sample request:
+    
+### Sample response:    
+
+### From the sample response above, the API finds the net payable amount of the member based on its percentage discount and $5 discount for every 100 bill  
 
 ### 7. From Eclipse, run project using Coverage As to generate the JUnit test coverage
-
+![Coverage](https://user-images.githubusercontent.com/50596242/57650878-eb277f80-75dc-11e9-9c50-8a600e7209ef.PNG)
+![JUnit](https://user-images.githubusercontent.com/50596242/57650880-eb277f80-75dc-11e9-88bc-6053b5ed4c8c.PNG)
 
 
 
