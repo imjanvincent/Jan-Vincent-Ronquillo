@@ -25,10 +25,12 @@ These instructions will get you a copy of the project up and running on your loc
 https://github.com/imjanvincent/Jan-Vincent-Ronquillo.git
 
 ### 2. Import project in Eclipse
-File > Existing Maven Projects
+File > Import > Existing Maven Projects
 
 ### 3. Run Java Application
 Run RetailStoreDiscountApplication class as Java Application a d wait for the server to be started from the console logs
+![Server logs](https://user-images.githubusercontent.com/50596242/57650724-7c4a2680-75dc-11e9-952c-87a1595f1f2b.PNG)
+
 
 ### 4. Check API if it successfully started in the browser by hitting
 http://localhost:8080/
