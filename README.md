@@ -21,6 +21,9 @@ On a retail website, the following discounts apply:
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
+## Project Directory
+![Project Directory](https://user-images.githubusercontent.com/50596242/57653083-119be980-75e2-11e9-8824-ebcebeece92e.PNG)
+
 ### 1. Clone repository using GIT:
 ```
 https://github.com/imjanvincent/Jan-Vincent-Ronquillo.git
@@ -98,12 +101,17 @@ http://localhost:8080/sale
 ![JUnit](https://user-images.githubusercontent.com/50596242/57650880-eb277f80-75dc-11e9-88bc-6053b5ed4c8c.PNG)
 
 
-## Spring REST
+## Spring REST Endpoint Configuration
 | HTTP Method  | URI | Description |
 | ------------- | ------------- | ------------- |
 | GET  | /sale  | List all sales  |
 | POST  | /sale  | Add new sale and return net payable amount  |
 
+- @RestController annotation on controller class enables Spring Boot to scan it to find the REST endpoints to configure
+- @RequestMapping annotation on method tells Spring to use this method as handler for any client requests. This is very important spring annotation, we can configure additional features such as HTTP methods supported, Content-Type of request, response content type etc. By default, GET method is supported and JSON response is returned.
+
+## UML Class Diagram
+![UML Class Diagram](https://user-images.githubusercontent.com/50596242/57652779-5d01c800-75e1-11e9-841c-c708e7f67946.jpg)
 
 
 
