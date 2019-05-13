@@ -107,6 +107,8 @@ http://localhost:8080/sale
 | GET  | /sale  | List all sales  |
 | POST  | /sale  | Add new sale and return net payable amount  |
 
+![Controller](https://user-images.githubusercontent.com/50596242/57653669-6ee46a80-75e3-11e9-8406-76e3d6589e2e.PNG)
+
 - @RestController annotation on controller class enables Spring Boot to scan it to find the REST endpoints to configure
 - @RequestMapping annotation on method tells Spring to use this method as handler for any client requests. This is very important spring annotation, we can configure additional features such as HTTP methods supported, Content-Type of request, response content type etc. By default, GET method is supported and JSON response is returned.
 
