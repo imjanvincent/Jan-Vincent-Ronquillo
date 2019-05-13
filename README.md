@@ -43,8 +43,10 @@ http://localhost:8080/sale
 ![POST](https://user-images.githubusercontent.com/50596242/57650882-eb277f80-75dc-11e9-8834-5e2af08f3b22.PNG)
 
 ### Sample request:
-    
+[Request.txt](https://github.com/imjanvincent/Jan-Vincent-Ronquillo/files/3174676/Request.txt)
+
 ### Sample response:    
+[Response.txt](https://github.com/imjanvincent/Jan-Vincent-Ronquillo/files/3174675/Response.txt)
 
 ### From the sample response above, the API finds the net payable amount of the member based on its percentage discount and $5 discount for every 100 bill  
 
